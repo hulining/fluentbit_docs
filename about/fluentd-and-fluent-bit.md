@@ -8,12 +8,12 @@ description: 生产级生态系统
 
 在此文中，我们将描述 [Fluentd](https://www.fluentd.org/) 和 [Fluent Bit](https://fluentbit.io/) 开源项目之间的关系，作为总结，我们可以说两者都是：
 
-* 基于 Apache License v2.0 的条款许可
-* 由[云原生计算基金会(CNCF)](https://cncf.io/)托管的子项目
-* 生产级解决方案: 部署达每日**数千**次，每月**百万**次
-* 社区推动的项目
-* 业界广泛采用: 受到 AWS，Microsoft，Google Cloud 等数百个公司的信任
-* 最初由 [Treasure Data](https://www.treasuredata.com) 创建
+- 基于 Apache License v2.0 的条款许可
+- 由[云原生计算基金会(CNCF)](https://cncf.io/)托管的子项目
+- 生产级解决方案: 部署达每日**数千**次，每月**百万**次
+- 社区推动的项目
+- 业界广泛采用: 受到 AWS，Microsoft，Google Cloud 等数百个公司的信任
+- 最初由 [Treasure Data](https://www.treasuredata.com) 创建
 
 这两个项目有很多相似之处，[Fluent Bit](https://fluentbit.io) 是完全在 [Fluentd](https://www.fluentd.org) 体系结构和一般设计的最佳思想之上设计和构建的。选择使用哪一个取决于用户的最终需求。
 

@@ -10,7 +10,7 @@ description: 高性能日志处理器
 
 [Fluent Bit](http://fluentbit.io/) 是用于 Linux，OSX，Windows 和 BSD 系列操作系统的快速轻量级日志处理器，流处理器和转发器。它非常注重性能，允许对不同来源的事件进行收集且简单易用。
 
-## 特征
+## 特性 <a id="routing-with-wildcard"></a>
 
 * 高性能
 * 数据转换
