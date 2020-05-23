@@ -8,7 +8,7 @@ The following article cover the relevant notes for users upgrading from previous
 
 ## Fluent Bit v1.4
 
-如果从 Fluent Bit v1.3 进行升级，不需要做出改动。只需享受令人兴奋的新功能即可 :)
+如果从 Fluent Bit v1.3 进行升级，不需要做出改动。只需享受令人兴奋的新功能即可 :\)
 
 ## Fluent Bit v1.3
 
@@ -111,4 +111,5 @@ Tail 输入插件中的行为切换影响 Kubernetes 过滤器的运行方式。
     Kube_Tag_Prefix  kube.var.log.containers.
 ```
 
-正确的 _`Kube_Tag_Prefix`_ 值一定由在 Tail 输入插件中设置的标签前缀加上转换后的受监控目录(用点代替斜杠)组成。
+正确的 _`Kube_Tag_Prefix`_ 值一定由在 Tail 输入插件中设置的标签前缀加上转换后的受监控目录\(用点代替斜杠\)组成。
+

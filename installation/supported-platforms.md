@@ -19,6 +19,7 @@ Fluent Bit 支持以下操作系统和平台架构
 | Windows | [Windows Server 2019](windows.md) | x86\_64, x86 |
 |  | [Windows 10 1903](windows.md) | x86\_64, x86 |
 
-从架构支持的角度来看，Fluent Bit 在基于 x86_64，Arm64v8 和 Arm32v7 的处理器上全面支持。
+从架构支持的角度来看，Fluent Bit 在基于 x86\_64，Arm64v8 和 Arm32v7 的处理器上全面支持。
 
-Fluent Bit 也可以在 OSX 和 *BSD 系统上工作，但并非所有插件在所有平台上都可用。官方支持将根据社区需求而扩大。
+Fluent Bit 也可以在 OSX 和 \*BSD 系统上工作，但并非所有插件在所有平台上都可用。官方支持将根据社区需求而扩大。
+

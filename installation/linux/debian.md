@@ -1,6 +1,6 @@
 # Debian
 
-Fluent Bit 发布的软件包为 **td-agent-bit**，可用于最新(和旧)稳定版 Debian 系统: Buster, Stretch 和 Jessie。
+Fluent Bit 发布的软件包为 **td-agent-bit**，可用于最新\(和旧\)稳定版 Debian 系统: Buster, Stretch 和 Jessie。
 
 ## Server GPG key
 
@@ -70,4 +70,5 @@ sudo service td-agent-bit status
 ...
 ```
 
-**td-agent-bit** 的默认配置是收集 CPU 使用率的指标数据并将记录发送到标准输出，您可以在 _`/var/log/syslog_`_ 文件中看到输出的数据。
+**td-agent-bit** 的默认配置是收集 CPU 使用率的指标数据并将记录发送到标准输出，您可以在 _\`/var/log/syslog_\`\_ 文件中看到输出的数据。
+

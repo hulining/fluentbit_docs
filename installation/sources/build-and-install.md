@@ -6,7 +6,7 @@
 
 > 在以下步骤中，您可以找到使用默认选项构建和安装项目的正确命令。如果您已经知道 CMake 的工作原理，则可以跳过此部分并查看可用的构建选项。
 
-转到 Fluent Bit 源代码中的 _`build/`_  目录
+转到 Fluent Bit 源代码中的 _`build/`_ 目录
 
 ```bash
 $ cd build/
@@ -103,7 +103,7 @@ Fluent Bit 提供了 CMake 的某些选项，这些选项可以在配置时启�
 
 ### Input Plugins
 
-_输出插件_ 提供了从特定的源类型(可以是网络接口，某些内置指标或通过特定的输入设备)收集信息的某些功能，可以使用以下输入插件:
+_输出插件_ 提供了从特定的源类型\(可以是网络接口，某些内置指标或通过特定的输入设备\)收集信息的某些功能，可以使用以下输入插件:
 
 | 选项 | 描述 | 默认值 |
 | :--- | :--- | :--- |
@@ -141,7 +141,7 @@ _Filter plugins_ 允许修改，丰富或删除记录。下表描述了此版本
 | [FLB\_FILTER\_GREP](../../pipeline/filters/grep.md) | Enable Grep filter | On |
 | [FLB\_FILTER\_KUBERNETES](../../pipeline/filters/kubernetes.md) | Enable Kubernetes metadata filter | On |
 | [FLB\_FILTER\_LUA](../../pipeline/filters/lua.md) | Enable Lua scripting filter | On |
-| [FLB\_FILTER\_MODIFY](../../pipeline/filters/modify.md) | Enable Modify filter  | On |
+| [FLB\_FILTER\_MODIFY](../../pipeline/filters/modify.md) | Enable Modify filter | On |
 | [FLB\_FILTER\_NEST](../../pipeline/filters/nest.md) | Enable Nest filter | On |
 | [FLB\_FILTER\_PARSER](../../pipeline/filters/parser.md) | Enable Parser filter | On |
 | [FLB\_FILTER\_RECORD\_MODIFIER](../../pipeline/filters/record-modifier.md) | Enable Record Modifier filter | On |
@@ -179,3 +179,4 @@ _Output plugins_ 提供将信息刷新到某些外部接口，服务或终端的
 | [FLB\_OUT\_STDOUT](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/output/stdout.md) | Enable STDOUT output plugin | On |
 | FLB\_OUT\_TCP | Enable TCP/TLS output plugin | On |
 | [FLB\_OUT\_TD](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/output/td.md) | Enable [Treasure Data](http://www.treasuredata.com) output plugin | On |
+

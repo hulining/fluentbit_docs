@@ -4,7 +4,7 @@
 
 Fluent Bit 发布的软件包为 **td-agent-bit**，可用于最新稳定版 CentOS 系统 。支持以下架构
 
-* x86_64
+* x86\_64
 * aarch64 / arm64v8
 
 ## Configure Yum
@@ -53,3 +53,4 @@ Redirecting to /bin/systemctl status  td-agent-bit.service
 ```
 
 **td-agent-bit** 的默认配置是收集 CPU 使用率的指标数据并将记录发送到标准输出，您可以在 _`/var/log/messages`_ 文件中看到输出的数据。
+
