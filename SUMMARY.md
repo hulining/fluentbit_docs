@@ -36,4 +36,7 @@
   * [Debian](installation/linux/debian.md)
   * [Ubuntu](installation/linux/ubuntu.md)
   * [树莓派](installation/linux/raspbian-raspberry-pi.md)
+* [Docker](installation/docker.md)
+* [Kubernetes](installation/kubernetes.md)
+* [Windows](installation/windows.md)
 
