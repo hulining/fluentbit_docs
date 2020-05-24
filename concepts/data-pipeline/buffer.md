@@ -2,11 +2,11 @@
 description: 可靠地进行数据处理
 ---
 
-# 缓冲区
+# 缓冲
 
 管道中的`缓冲`阶段在先前的[缓冲](../buffering.md)概念部分中定义过，旨在提供统一的持久性机制来存储数据，无论是主要使用内存模式中还是基于文件系统的模式。
 
-![](../../.gitbook/assets/logging_pipeline_buffer%20%281%29.png)
+![](../../.gitbook/assets/logging_pipeline_buffer.png)
 
 `缓冲` 阶段包含已经处于不可变状态的数据，这意味着无法应用其它的过滤器。
 

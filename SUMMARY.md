@@ -17,7 +17,7 @@
   * [输入](concepts/data-pipeline/input.md)
   * [解析器](concepts/data-pipeline/parser.md)
   * [过滤器](concepts/data-pipeline/filter.md)
-  * [缓冲区](concepts/data-pipeline/buffer.md)
+  * [缓冲](concepts/data-pipeline/buffer.md)
   * [路由器](concepts/data-pipeline/router.md)
   * [输出](concepts/data-pipeline/output.md)
 
