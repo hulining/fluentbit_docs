@@ -40,3 +40,11 @@
 * [Kubernetes](installation/kubernetes.md)
 * [Windows](installation/windows.md)
 
+## 管理 <a id="administration"></a>
+
+* [配置 Fluent Bit](administration/configuring-fluent-bit/README.md)
+  * [变量](administration/configuring-fluent-bit/variables.md)
+  * [命令](administration/configuring-fluent-bit/commands.md)
+  * [上游服务负载均衡](administration/configuring-fluent-bit/upstream-servers.md)
+  * [单位](administration/configuring-fluent-bit/unit-sizes.md)
+
