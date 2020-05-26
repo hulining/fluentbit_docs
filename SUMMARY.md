@@ -43,6 +43,8 @@
 ## 管理 <a id="administration"></a>
 
 * [配置 Fluent Bit](administration/configuring-fluent-bit/README.md)
+  * [格式与模式](administration/configuring-fluent-bit/format-schema.md)
+  * [配置文件](administration/configuring-fluent-bit/configuration-file.md)
   * [变量](administration/configuring-fluent-bit/variables.md)
   * [命令](administration/configuring-fluent-bit/commands.md)
   * [上游服务负载均衡](administration/configuring-fluent-bit/upstream-servers.md)
