@@ -47,4 +47,6 @@
   * [命令](administration/configuring-fluent-bit/commands.md)
   * [上游服务负载均衡](administration/configuring-fluent-bit/upstream-servers.md)
   * [单位](administration/configuring-fluent-bit/unit-sizes.md)
+* [安全性](administration/security.md)
+* [缓冲与存储](administration/buffering-and-storage.md)
 
