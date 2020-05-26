@@ -1,5 +1,5 @@
 ---
-description: 本文章描述 Fluent Bit 的主配置文件
+description: 本页面描述 Fluent Bit 的主配置文件
 ---
 
 # 配置文件
