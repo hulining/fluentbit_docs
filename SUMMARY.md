@@ -53,4 +53,6 @@
 * [缓冲与存储](administration/buffering-and-storage.md)
 * [积压](administration/backpressure.md)
 * [调度与重试](administration/scheduling-and-retries.md)
+* [内存管理](administration/memory-management.md)
+* [监控](administration/monitoring.md)
 
