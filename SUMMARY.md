@@ -51,4 +51,6 @@
   * [单位](administration/configuring-fluent-bit/unit-sizes.md)
 * [安全性](administration/security.md)
 * [缓冲与存储](administration/buffering-and-storage.md)
+* [积压](administration/backpressure.md)
+* [调度与重试](administration/scheduling-and-retries.md)
 
