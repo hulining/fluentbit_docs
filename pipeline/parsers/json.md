@@ -18,11 +18,11 @@ JSON 解析器是最简单的选择: 如果原始日志源是 JSON 格式的字�
 {"key1": 12345, "key2": "abc", "time": "2006-07-28T13:22:04Z"}
 ```
 
-After processing, it internal representation will be:
+处理后，其内部表示将为:
 
 ```text
 [1154103724, {"key1"=>12345, "key2"=>"abc"}]
 ```
 
-time 字段已转换为 Unix 时间戳\(UTC\)，并且映射由原始消息转换为每个组成部分
+_time_ 字段已转换为 Unix 时间戳\(UTC\)，并且映射由原始消息转换为每个组成部分
 
