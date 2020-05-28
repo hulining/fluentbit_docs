@@ -7,7 +7,7 @@ Fluent Bit 使用 Ruby 模式的 [Onigmo](https://github.com/k-takata/Onigmo) �
 [http://rubular.com/](http://rubular.com/)
 
 {% hint style="info" %}
-重要提示: 如果您使用的是 [Tail](../inputs/tail.md)输入插件，请不要尝试在正则表达式中添加多行支持，因为每行都作为单独的实例进行处理。而是使用 [Tail Multiline](../inputs/tail.md#multiline)支持的多行功能。
+重要提示: 如果您使用的是 [Tail](../inputs/tail.md) 输入插件，请不要尝试在正则表达式中添加多行支持，因为每行都作为单独的实例进行处理。而是使用 [Tail Multiline](../inputs/tail.md#multiline) 支持的多行功能。
 {% endhint %}
 
 > 注意: 了解正则表达式的工作原理超出了本内容的范围
