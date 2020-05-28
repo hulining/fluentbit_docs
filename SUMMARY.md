@@ -59,6 +59,11 @@
 
 ## 数据管道 <a id="pipeline"></a>
 
-* [inputs](pipeline/inputs/README.md)
+* [输入插件](pipeline/inputs/README.md)
+  * [标准输入](pipeline/inputs/standard-input.md)
+  * [Systemd](pipeline/inputs/systemd.md)
   * [tail](pipeline/inputs/tail.md)
+* [解析器](pipeline/parsers/README.md)
+  * [JSON](pipeline/parsers/json.md)
+  * [正则表达式](pipeline/parsers/regular-expression.md)
 
