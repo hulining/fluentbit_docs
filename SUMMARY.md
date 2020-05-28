@@ -55,4 +55,10 @@
 * [调度与重试](administration/scheduling-and-retries.md)
 * [内存管理](administration/memory-management.md)
 * [监控](administration/monitoring.md)
+* [内部状态导出/信号](administration/dump-internals-signal.md)
+
+## 数据管道 <a id="pipeline"></a>
+
+* [inputs](pipeline/inputs/README.md)
+  * [tail](pipeline/inputs/tail.md)
 
