@@ -1,6 +1,6 @@
 # tail
 
-**tail** 输入插件允许监测一个或多个文本文件。它具有类似于 _`tail -f`_ shell 命令行功能。
+**tail** 输入插件允许监测一个或多个文本文件。它具有类似于 _`tail -f`_ 的 shell 命令行功能。
 
 该插件读取 _Path_ 模式中的每个匹配文件，并为每个新行\(分隔符为`\n`\)生成一条新纪录。作为可选的，可以使用数据库文件，以便插件可以跟踪文件的历史记录和偏移状态，这对于重启服务时的状态恢复非常有用。
 
@@ -20,11 +20,11 @@
 | Ignore\_Older | 忽略比该时间旧的记录\(秒\)。支持 m,h,d\(分钟,小时,天\)。默认行为是从指定文件中读取所有记录。 仅在指定了解析器并且可以解析记录时间时才可用 |  |
 | Skip\_Long\_Lines | 当监控的文件由于行\(Buffer\_Max\_Size\)很长而达到缓冲区容量时，默认行为是停止监视该文件。Skip\_Long\_Lines 会更改该行为，并指示 Fluent Bit 跳过长行并继续处理适合缓冲区大小的其他行 | Off |
 | DB | 指定跟踪监控文件的偏移量的数据库文件 |  |
-| DB.Sync | 设置默认的同步方法。可选值: Extra, Full, Normal, Off.此标志影响内部 SQLite 引擎与磁盘同步的方式，有关选项的更多详细信息，请参阅[sqlite 文档](https://www.sqlite.org/pragma.html#pragma_synchronous). | Full |
-| Mem\_Buf\_Limit | 设置将数据追加到引擎时的内存限制。如果达到此限制，它将被暂停；刷新数据后，它将恢复。. |  |
+| DB.Sync | 设置默认的同步方法。可选值: Extra, Full, Normal, Off.此标志影响内部 SQLite 引擎与磁盘同步的方式，有关选项的更多详细信息，请参阅 [sqlite 文档](https://www.sqlite.org/pragma.html#pragma_synchronous). | Full |
+| Mem\_Buf\_Limit | 设置将数据追加到引擎时的内存限制。如果达到此限制，它将被暂停；刷新数据后，它将恢复. |  |
 | Parser | 指定解析器的名称，将记录转化为结构化消息 |  |
 | Key | 当消息是非结构化数据时\(未应用解析器\)，消息将以字符串形式作为 _`log`_ 键的值。此选项允许为该键指定名称 | log |
-| Tag | 为读取的行设置标签\(带有正则表达式字段\)。如 `kube.<namespace_name>.<pod_name>.<container_name>`.请注意支持如下"标签扩展"规则: 如果标签包含星号\(_\)，则星号\(\_\)将被替换为文件的绝对路径\(请参阅 [Workflow of Tail + Kubernetes Filter](../../pipeline/filters/kubernetes.md) |  |
+| Tag | 为读取的行设置标签\(带有正则表达式字段\)。如 `kube.<namespace_name>.<pod_name>.<container_name>`.请注意支持如下"标签扩展"规则: 如果标签包含星号\(\*\)，则星号\(\*\)将被替换为文件的绝对路径\(请参阅 [Workflow of Tail + Kubernetes Filter](../../pipeline/filters/kubernetes.md) |  |
 | Tag\_Regex | 设置正则表达式以从文件中提取字段.如 `(?<pod_name>[a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*)_(?<namespace_name>[^_]+)_(?<container_name>.+)-` |  |
 
 请注意，如果未指定数据库参数 _db_，默认情况下，插件将从头开始读取每个目标文件。
@@ -77,7 +77,7 @@ $ fluent-bit -i tail -p path=/var/log/syslog -o stdout
 
 ## 文件状态跟踪 <a id="keep_state"></a>
 
-强烈建议您启用 _tail_ 输入插件可保存跟踪文件的状态的功能。为此，可以使用 **db** 属性,如:
+强烈建议您启用 _tail_  输入插件可保存跟踪文件的状态的功能。为此，可以使用 **db** 属性,如:
 
 ```bash
 $ fluent-bit -i tail -p path=/var/log/syslog -p db=/path/to/logs.db -o stdout
