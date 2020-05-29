@@ -23,7 +23,7 @@
 | 配置项 | 描述 | 默认值 |
 | :--- | :--- | :--- |
 | Buffer\_Size | 从Kubernetes API Server 读取响应时，设置 HTTP 客户端的缓冲区大小。该值必须符合[单位](../../administration/configuring-fluent-bit/unit-sizes.md)规范 | 32k |
-| Kube\_URL | API Server 服务端点 | [https://kubernetes.default.svc:443](https://kubernetes.default.svc:443) |
+| Kube\_URL | API Server 服务端点 | https://kubernetes.default.svc:443 |
 | Kube\_CA\_File | CA 证书文件 | /var/run/secrets/kubernetes.io/serviceaccount/ca.crt |
 | Kube\_CA\_Path | 扫描证书文件的绝对路径 |  |
 | Kube\_Token\_File | Token 文件 | /var/run/secrets/kubernetes.io/serviceaccount/token |
@@ -36,7 +36,7 @@
 | tls.debug | 调试级别 0\(nothing\) 到 4 \(every detail\). | -1 |
 | tls.verify | 启用后，在连接到 Kubernetes API Server 时打开证书验证 | On |
 | Use\_Journal | 启用后，过滤器将以 Journald 格式读取日志 | Off |
-| Regex\_Parser | 设置备用解析器以处理记录 Tag 并提取 pod\_name, pod\_name, namespace\_name, container\_name 和 docker\_id.解析器必须在[parsers 文件](https://github.com/fluent/fluent-bit/blob/master/conf/parsers.conf)中注册\(参考 _filter-kube-test_ 解析器示例\). |  |
+| Regex\_Parser | 设置备用解析器以处理记录 Tag 并提取 pod\_name, pod\_name, namespace\_name, container\_name 和 docker\_id.解析器必须在 [parsers 文件](https://github.com/fluent/fluent-bit/blob/master/conf/parsers.conf)中注册\(参考 _filter-kube-test_ 解析器示例\). |  |
 | K8S-Logging.Parser | 允许 Kubernetes Pod 建议预定义的解析器\(在 Kubernetes Annotations 部分中了解更多信息\) | Off |
 | K8S-Logging.Exclude | 允许Kubernetes Pod 从日志处理器中排除其日志\(在 Kubernetes Annotations 部分中了解更多信息\). | Off |
 | Labels | 是否在额外的元数据中包含 Kubernetes 资源标签信息 | On |
