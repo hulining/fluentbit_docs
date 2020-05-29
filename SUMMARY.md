@@ -70,5 +70,6 @@
   * [Logfmt](pipeline/parsers/logfmt.md)
 * [过滤器](pipeline/filters/README.md)
   * [Grep](pipeline/filters/grep.md)
+  * [Kubernetes](pipeline/filters/kubernetes.md)
   * [Nest](pipeline/filters/nest.md)
 
