@@ -2,9 +2,9 @@
 description: 创建灵活的路由规则
 ---
 
-# 路由器
+# 路由
 
-路由是一项核心功能，它允许您通过过滤器**路由**您的数据，最后到达一个或多个目的地。路由器依赖[标签](../%20key-concepts.md)和[匹配](../key-concepts.md)规则的概念。
+路由是一项核心功能，它允许您通过过滤器**路由**您的数据，最后到达一个或多个目的地。路由器依赖[标签](../key-concepts.md#tag)和[匹配](../key-concepts.md#match)规则的概念。
 
 ![](../../.gitbook/assets/logging_pipeline_routing.png)
 

@@ -12,5 +12,5 @@ description: 从数据源收集数据的方式
 
 每个配置插件都有其自己的独立文档，在其文档中说明了如何使用它以及其可用的属性。
 
-更多细节请参阅[输入插件](https://docs.fluentbit.io/manual/pipeline/inputs)部分。
+更多细节请参阅[输入插件](../../pipeline/inputs/)部分。
 

@@ -18,7 +18,7 @@
   * [解析器](concepts/data-pipeline/parser.md)
   * [过滤器](concepts/data-pipeline/filter.md)
   * [缓冲](concepts/data-pipeline/buffer.md)
-  * [路由器](concepts/data-pipeline/router.md)
+  * [路由](concepts/data-pipeline/router.md)
   * [输出](concepts/data-pipeline/output.md)
 
 ## 安装 <a id="installation"></a>
@@ -71,5 +71,6 @@
 * [过滤器](pipeline/filters/README.md)
   * [Grep](pipeline/filters/grep.md)
   * [Kubernetes](pipeline/filters/kubernetes.md)
+  * [标签重写](pipeline/filters/rewrite-tag.md)
   * [Nest](pipeline/filters/nest.md)
 
