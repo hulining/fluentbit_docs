@@ -81,6 +81,9 @@
   * [Elasticsearch](pipeline/outputs/elasticsearch.md)
   * [File](pipeline/outputs/file.md)
   * [FlowCounter](pipeline/outputs/flowcounter.md)
+  * [HTTP](pipeline/outputs/http.md)
+  * [Kafka](pipeline/outputs/kafka.md)
   * [PostgreSQL](pipeline/outputs/postgresql.md)
   * [Standard Output](pipeline/outputs/standard-output.md)
+  * [TCP & TLS](pipeline/outputs/tcp-and-tls.md)
 

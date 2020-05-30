@@ -34,7 +34,7 @@
 
 ### TLS / SSL
 
-Elasticsearch 输出插件支持 TLS/SSL，有关可用属性和配置的详细信息，请参阅 [TLS/SSL](tcp-and-tls.md) 部分。
+Elasticsearch 输出插件支持 TLS/SSL，有关可用属性和配置的详细信息，请参阅 [TLS/SSL](tcp-and-tls.md#tls-configuration-parameters) 部分。
 
 ## Getting Started
 
