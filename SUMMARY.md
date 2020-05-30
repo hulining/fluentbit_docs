@@ -60,17 +60,20 @@
 ## 数据管道 <a id="pipeline"></a>
 
 * [输入插件](pipeline/inputs/README.md)
-  * [标准输入](pipeline/inputs/standard-input.md)
+  * [Dummy](pipeline/inputs/dummy.md)
+  * [Memory Metics](pipeline/inputs/mem.md)
+  * [Standard Input](pipeline/inputs/standard-input.md)
   * [Systemd](pipeline/inputs/systemd.md)
   * [tail](pipeline/inputs/tail.md)
 * [解析器](pipeline/parsers/README.md)
   * [JSON](pipeline/parsers/json.md)
-  * [正则表达式](pipeline/parsers/regular-expression.md)
+  * [Regular Expression](pipeline/parsers/regular-expression.md)
   * [LTSV](pipeline/parsers/ltsv.md)
   * [Logfmt](pipeline/parsers/logfmt.md)
 * [过滤器](pipeline/filters/README.md)
   * [Grep](pipeline/filters/grep.md)
   * [Kubernetes](pipeline/filters/kubernetes.md)
-  * [标签重写](pipeline/filters/rewrite-tag.md)
+  * [Rewrite Tag](pipeline/filters/rewrite-tag.md)
+  * [Modify](pipeline/filters/modify.md)
   * [Nest](pipeline/filters/nest.md)
 

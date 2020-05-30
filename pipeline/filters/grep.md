@@ -1,6 +1,6 @@
 # Grep
 
-Grep 过滤插件允许根据正则表达式模式匹配或排除特定记录。
+**grep** 过滤插件允许根据正则表达式模式匹配或排除特定记录。
 
 ## 配置参数 <a id="configuration-parameters"></a>
 

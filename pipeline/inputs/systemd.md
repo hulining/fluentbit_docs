@@ -1,6 +1,6 @@
 # Systemd
 
-**Systemd** 输入插件允许在 Linux 环境中从 Journald 守护进程收集日志消息。
+**systemd** 输入插件允许在 Linux 环境中从 Journald 守护进程收集日志消息。
 
 ## 配置参数 <a id="configuration-parameters"></a>
 

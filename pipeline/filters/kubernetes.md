@@ -1,6 +1,6 @@
 # Kubernetes
 
-**Kubernetes** 过滤器插件允许使用元数据丰富您的日志文件。
+**kubernetes** 过滤器插件允许使用元数据丰富您的日志文件。
 
 当 Fluent Bit 作为 DaemonSet 部署在 Kubernetes 并配置为从容器\(使用 tail 或 systemd 输入插件\)读取日志时，此过滤器可以执行以下操作:
 
@@ -16,7 +16,7 @@
 
 数据缓存在本地内存中，并附加到每个日志记录上。
 
-## 配置文件 <a id="configuration-parameters"></a>
+## 配置参数 <a id="configuration-parameters"></a>
 
 该插件支持以下配置参数:
 
