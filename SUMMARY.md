@@ -76,4 +76,11 @@
   * [Rewrite Tag](pipeline/filters/rewrite-tag.md)
   * [Modify](pipeline/filters/modify.md)
   * [Nest](pipeline/filters/nest.md)
+* [输出插件](pipeline/outputs/README.md)
+  * [Counter](pipeline/outputs/counter.md)
+  * [Elasticsearch](pipeline/outputs/elasticsearch.md)
+  * [File](pipeline/outputs/file.md)
+  * [FlowCounter](pipeline/outputs/flowcounter.md)
+  * [PostgreSQL](pipeline/outputs/postgresql.md)
+  * [Standard Output](pipeline/outputs/standard-output.md)
 
