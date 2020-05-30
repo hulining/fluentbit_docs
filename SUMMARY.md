@@ -87,3 +87,9 @@
   * [Standard Output](pipeline/outputs/standard-output.md)
   * [TCP & TLS](pipeline/outputs/tcp-and-tls.md)
 
+## 流处理 <a id="stream-processing"></a>
+
+* [简介](stream-processing/introduction.md)
+* [总览](stream-processing/overview.md)
+* [快速开始](stream-processing/getting-started.md)
+
