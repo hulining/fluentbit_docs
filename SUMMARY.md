@@ -93,4 +93,6 @@
 * [总览](stream-processing/overview.md)
 * [快速开始](stream-processing/getting-started/README.md)
   * [Fluent Bit + SQL](stream-processing/getting-started/fluent-bit-sql.md)
+  * [Check Keys and NULL values](stream-processing/getting-started/check-keys-and-null-values.md)
+  * [Hands On! 101](stream-processing/getting-started/hands-on.md)
 
