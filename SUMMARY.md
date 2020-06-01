@@ -91,5 +91,6 @@
 
 * [简介](stream-processing/introduction.md)
 * [总览](stream-processing/overview.md)
-* [快速开始](stream-processing/getting-started.md)
+* [快速开始](stream-processing/getting-started/README.md)
+  * [Fluent Bit + SQL](stream-processing/getting-started/fluent-bit-sql.md)
 
