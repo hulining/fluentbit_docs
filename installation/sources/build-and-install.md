@@ -65,7 +65,7 @@ $ make install
 
 ## 构建选项 <a id="build-options"></a>
 
-Fluent Bit 提供了 CMake 的某些选项，这些选项可以在配置时启用或禁用，请参考下面的 _General Options_, _Development Options_, _Input Plugins_ 和 _Output Plugins_ 部分。
+Fluent Bit 提供了 CMake 的某些选项，这些选项可以在配置时启用或禁用，请参考下面的 [General Options](build-and-install.md#general-options), [Development Options](build-and-install.md#development-options), [Input Plugins](build-and-install.md#input-plugins) 和 [Output Plugins](build-and-install.md#output-plugins) 部分。
 
 ### General Options
 
