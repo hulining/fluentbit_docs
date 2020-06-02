@@ -20,7 +20,7 @@
 
 | Type | Description |
 | :--- | :--- |
-| flb\_ctx\_t | 主库上下文。它多用于引用 `flb_create()` 返回的上下文 |
+| flb\_ctx\_t | 主库的上下文。它多用于引用 `flb_create()` 返回的上下文 |
 
 ## API 参考 <a id="api-reference"></a>
 
