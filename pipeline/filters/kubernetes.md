@@ -125,7 +125,7 @@ spec:
 
 ## Tail + Kubernetes 过滤器的工作流程 <a id="workflow-of-tail-kubernetes-filter"></a>
 
-Kubernetes 过滤器依赖 [Tail](../inputs/tail.md) 或 [Systemd](../inputs/systemd.md) 输入插件来处理日志数据，并使用 Kubernetes 元数据丰富日志数据。下面，我们将说明 Tail 的工作流程，以及它如何与 Kubernetes 过滤器相关联。考虑以下配置示例\(仅用于演示，不用于生产\):
+Kubernetes 过滤器依赖 [tail](../inputs/tail.md) 或 [systemd](../inputs/systemd.md) 输入插件来处理日志数据，并使用 Kubernetes 元数据丰富日志数据。下面，我们将说明 Tail 的工作流程，以及它如何与 Kubernetes 过滤器相关联。考虑以下配置示例\(仅用于演示，不用于生产\):
 
 ```text
 [INPUT]
@@ -145,7 +145,7 @@ Kubernetes 过滤器依赖 [Tail](../inputs/tail.md) 或 [Systemd](../inputs/sys
     Merge_Log_Key    log_processed
 ```
 
-在 INPUT 配置段中， [Tail](../../pipeline/input/tail.md) 插件将监控路径 `/var/log/containers/` 路径以 `.log` 结尾的所有文件。对于每个文件，它将读取每一行日志记录并应用 docker 解析器。然后，日志记录将被附加标签并发送到下一步。
+在 INPUT 配置段中，[tail](../../pipeline/input/tail.md) 插件将监控路径 `/var/log/containers/` 路径以 `.log` 结尾的所有文件。对于每个文件，它将读取每一行日志记录并应用 docker 解析器。然后，日志记录将被附加标签并发送到下一步。
 
 Tail 插件支持标签扩展，这意味着如果标签带有星号\(\*\)，它将用受监控文件的绝对路径替换该值，因此，如果您的文件名路径为:
 

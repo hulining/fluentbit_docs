@@ -7,7 +7,7 @@ Fluent Bit 使用 Ruby 模式的 [Onigmo](https://github.com/k-takata/Onigmo) �
 [http://rubular.com/](http://rubular.com/)
 
 {% hint style="info" %}
-重要提示: 如果您使用的是 [Tail](../inputs/tail.md) 输入插件，请不要尝试在正则表达式中添加多行支持，因为每行都作为单独的实例进行处理。而是使用 [Tail Multiline](../inputs/tail.md#multiline) 支持的多行功能。
+重要提示: 如果您使用的是 [tail](../inputs/tail.md) 输入插件，请不要尝试在正则表达式中添加多行支持，因为每行都作为单独的实例进行处理。而是使用 [Tail Multiline](../inputs/tail.md#multiline) 支持的多行功能。
 {% endhint %}
 
 > 注意: 了解正则表达式的工作原理超出了本内容的范围
@@ -48,5 +48,5 @@ Fluent Bit 使用 Ruby 模式的 [Onigmo](https://github.com/k-takata/Onigmo) �
 
 一个常见的陷阱是，字段名中不能使用字母，数字和下划线以外的字符。例如，像 `(?<user-name>.*)` 之类的字段名将由于包含无效字符\(`-`\)而导致错误。
 
-为了像上述示例一样理解，学习和测试正则表达式，建议您尝试如下 Ruby 正则表达式编辑器: [http://rubular.com/r/X7BH0M4Ivm](http://rubular.com/r/X7BH0M4Ivm)
+为了理解，学习和测试像上述示例一样的正则表达式，建议您尝试如下 Ruby 正则表达式编辑器: [http://rubular.com/r/X7BH0M4Ivm](http://rubular.com/r/X7BH0M4Ivm)
 

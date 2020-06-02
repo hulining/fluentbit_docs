@@ -74,7 +74,7 @@
 
 ## Example \#1 - Add and Rename
 
-要开始记录过滤，您可以从命令行或通过配置文件运行过滤器。以下调用 [mem](../../pipleline/inputs/mem.md)\(内存数据指标\)输入插件，它输出如下示例记录:
+要开始记录过滤，您可以从命令行或通过配置文件运行过滤器。以下调用 [mem](../inputs/mem.md)\(内存数据指标\)输入插件，它输出如下示例记录:
 
 ```text
 [0] memory: [1488543156, {"Mem.total"=>1016044, "Mem.used"=>841388, "Mem.free"=>174656, "Swap.total"=>2064380, "Swap.used"=>139888, "Swap.free"=>1924492}]

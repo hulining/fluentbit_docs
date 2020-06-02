@@ -24,7 +24,7 @@
 | Mem\_Buf\_Limit | 设置将数据追加到引擎时的内存限制。如果达到此限制，它将被暂停；刷新数据后，它将恢复. |  |
 | Parser | 指定解析器的名称，将记录转化为结构化消息 |  |
 | Key | 当消息是非结构化数据时\(未应用解析器\)，消息将以字符串形式作为 _`log`_ 键的值。此选项允许为该键指定名称 | log |
-| Tag | 为读取的行设置标签\(带有正则表达式字段\)。如 `kube.<namespace_name>.<pod_name>.<container_name>`.请注意支持如下"标签扩展"规则: 如果标签包含星号\(\*\)，则星号\(\*\)将被替换为文件的绝对路径\(请参阅 [Workflow of Tail + Kubernetes Filter](../../pipeline/filters/kubernetes.md) |  |
+| Tag | 为读取的行设置标签\(带有正则表达式字段\)。如 `kube.<namespace_name>.<pod_name>.<container_name>`.请注意支持如下"标签扩展"规则: 如果标签包含星号\(\*\)，则星号\(\*\)将被替换为文件的绝对路径\(请参阅 [Workflow of Tail + Kubernetes Filter](../filters/kubernetes.md#workflow-of-tail-kubernetes-filter) |  |
 | Tag\_Regex | 设置正则表达式以从文件中提取字段.如 `(?<pod_name>[a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*)_(?<namespace_name>[^_]+)_(?<container_name>.+)-` |  |
 
 请注意，如果未指定数据库参数 _db_，默认情况下，插件将从头开始读取每个目标文件。
@@ -98,7 +98,7 @@ id     name                              offset        inode         created
 sqlite>
 ```
 
-> 确保 Fluent Bit 没有依赖该数据库再浏览数据库文件，否则您会看到一些 _Error: database is locked_ 错误消息。
+> 确保 Fluent Bit 没有依赖该数据库再浏览数据库文件，否则您会看到一些 _Error: database is locked_ 之类的错误消息。
 
 #### 格式化 SQLite
 
@@ -112,5 +112,5 @@ sqlite>
 
 ## 文件滚动 <a id="files-rotation"></a>
 
-文件滚动可以被正确的处理，包括日志滚动 _copytruncate\(复制截断\)_ 模式。
+文件滚动可以被正确的处理，包括日志滚动 _copytruncate\(复制清空\)_ 模式。
 
