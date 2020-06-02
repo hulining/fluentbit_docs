@@ -1,6 +1,6 @@
 # Fluent Bit + SQL
 
-Fluent Bit 流处理器使用通用 SQL 执行查询记录。以下部分描述了其可用特性及示例。
+Fluent Bit 流处理器使用通用 SQL 执行查询记录。以下部分描述了其可用功能及示例。
 
 ## Statements
 
