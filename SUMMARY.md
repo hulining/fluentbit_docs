@@ -96,3 +96,9 @@
   * [Check Keys and NULL values](stream-processing/getting-started/check-keys-and-null-values.md)
   * [Hands On! 101](stream-processing/getting-started/hands-on.md)
 
+## FLUENT BIT FOR DEVELOPERS <a id="development"></a>
+
+* [C Library API](development/library_api.md)
+* [手动提取记录](development/ingest-records-manually.md)
+* [Golang 输出插件](development/golang-output-plugins.md)
+
