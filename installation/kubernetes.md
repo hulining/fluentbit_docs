@@ -85,8 +85,8 @@ $ kubectl create -f https://raw.githubusercontent.com/fluent/fluent-bit-kubernet
 Fluent Bit 的默认配置可确保以下内容:
 
 * 使用运行节点上的所有容器日志
-* [Tail 输入插件](../pipeline/inputs/tail) 不会在引擎中添加超过 **5MB** 的内容，直到将他们刷新到 Elasticsearch。此限制旨在为[积压](../administration/backpressure)方案提供解决方法
+* [Tail 输入插件](../pipeline/inputs/tail.md) 不会在引擎中添加超过 **5MB** 的内容，直到将他们刷新到 Elasticsearch。此限制旨在为[积压](../administration/backpressure.md)方案提供解决方法
 * Kubernetes 过滤器插件将使用 Kubernetes 元数据\(特别是 _labels_ 和 _annotations_\)丰富日志数据。过滤器仅在找不到缓存信息时才访问 API 服务器，否则将使用缓存
-* 配置中的默认后端是由 [Elasticsearch 输出插件](../pipeline/inputs/elasticsearch)设置的 Elasticsearch。它使用 Logstash 格式处理日志。如果您需要其他索引和类型，请参考插件选项并自行进行调整
+* 配置中的默认后端是由 [Elasticsearch 输出插件](../pipeline/outputs/elasticsearch.md)设置的 Elasticsearch。它使用 Logstash 格式处理日志。如果您需要其他索引和类型，请参考插件选项并自行进行调整
 * 选项 **`Retry_Limit`** 设置为 False，这意味着如果 Fluent Bit 无法将记录刷新到 Elasticsearch，它将无限期地重试直到成功
 

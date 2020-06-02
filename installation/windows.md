@@ -2,7 +2,7 @@
 
 Fluent Bit 在 Windows 上发布的件包为 **td-agent-bit**。Fluent Bit 有两种 Windows 安装程序: ZIP 压缩包\(用于快速测试\)和 EXE 安装程序\(用于系统安装\)。
 
-## 安装包
+## 安装包 <a id="installation-packages"></a>
 
 最新的稳定版本是 1.4.4。
 
@@ -19,7 +19,7 @@ Fluent Bit 在 Windows 上发布的件包为 **td-agent-bit**。Fluent Bit 有�
 PS> Get-FileHash td-agent-bit-1.4.4-win32.exe
 ```
 
-## 使用 ZIP 压缩包安装
+## 使用 ZIP 压缩包安装 <a id="installing-from-zip-archive"></a>
 
 从[下载页面](https://fluentbit.io/)下载 ZIP 压缩包。其中包含有适用于 32 位和 64 位环境的安装程序，因此请选择适合您的环境的安装程序。
 

@@ -122,7 +122,7 @@ _输出插件_ 提供了从特定的源类型\(可以是网络接口，某些内
 | [FLB\_IN\_PROC](../../pipeline/inputs/process.md) | Enable Process monitoring input plugin | On |
 | [FLB\_IN\_RANDOM](../../pipeline/inputs/random.md) | Enable Random input plugin | On |
 | [FLB\_IN\_SERIAL](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/input/serial.md) | Enable Serial input plugin | On |
-| [FLB\_IN\_STDIN](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/input/stdin.md) | Enable Standard input plugin | On |
+| [FLB\_IN\_STDIN](../../pipeline/inputs/standard-input.md) | Enable Standard input plugin | On |
 | [FLB\_IN\_SYSLOG](../../pipeline/inputs/syslog.md) | Enable Syslog input plugin | On |
 | [FLB\_IN\_SYSTEMD](../../pipeline/inputs/systemd.md) | Enable Systemd / Journald input plugin | On |
 | [FLB\_IN\_TAIL](../../pipeline/inputs/tail.md) | Enable Tail \(follow files\) input plugin | On |
@@ -146,7 +146,7 @@ _Filter plugins_ 允许修改，丰富或删除记录。下表描述了此版本
 | [FLB\_FILTER\_PARSER](../../pipeline/filters/parser.md) | Enable Parser filter | On |
 | [FLB\_FILTER\_RECORD\_MODIFIER](../../pipeline/filters/record-modifier.md) | Enable Record Modifier filter | On |
 | [FLB\_FILTER\_REWRITE\_TAG](../../pipeline/filters/rewrite-tag.md) | Enable Rewrite Tag filter | On |
-| [FLB\_FILTER\_STDOUT](../../pipeline/filters/standard-output.md) | Enable Stdout filter | On |
+| [FLB\_FILTER\_STDOUT](../../pipeline/outputs/standard-output.md) | Enable Stdout filter | On |
 | [FLB\_FILTER\_THROTTLE](../../pipeline/filters/throttle.md) | Enable Throttle filter | On |
 
 ### Output Plugins
@@ -159,12 +159,12 @@ _Output plugins_ 提供将信息刷新到某些外部接口，服务或终端的
 | [FLB\_OUT\_BIGQUERY](../../pipeline/outputs/bigquery.md) | Enable Google BigQuery output plugin | On |
 | [FLB\_OUT\_COUNTER](../../pipeline/outputs/counter.md) | Enable Counter output plugin | On |
 | [FLB\_OUT\_DATADOG](../../pipeline/outputs/datadog.md) | Enable Datadog output plugin | On |
-| [FLB\_OUT\_ES](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/output/elasticsearch.md) | Enable [Elastic Search](http://www.elastic.co) output plugin | On |
+| [FLB\_OUT\_ES](../../pipeline/outputs/elasticsearch.md) | Enable [Elastic Search](http://www.elastic.co) output plugin | On |
 | [FLB\_OUT\_FILE](../../pipeline/outputs/file.md) | Enable File output plugin | On |
 | [FLB\_OUT\_FLOWCOUNTER](../../pipeline/outputs/flowcounter.md) | Enable Flowcounter output plugin | On |
 | [FLB\_OUT\_FORWARD](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/output/forward.md) | Enable [Fluentd](http://www.fluentd.org) output plugin | On |
 | [FLB\_OUT\_GELF](../../pipeline/outputs/gelf.md) | Enable Gelf output plugin | On |
-| [FLB\_OUT\_HTTP](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/output/http.md) | Enable HTTP output plugin | On |
+| [FLB\_OUT\_HTTP](../../pipeline/outputs/http.md) | Enable HTTP output plugin | On |
 | [FLB\_OUT\_INFLUXDB](../../pipeline/outputs/influxdb.md) | Enable InfluxDB output plugin | On |
 | [FLB\_OUT\_KAFKA](../../pipeline/outputs/kafka.md) | Enable Kafka output | Off |
 | [FLB\_OUT\_KAFKA\_REST](../../pipeline/outputs/kafka-rest-proxy.md) | Enable Kafka REST Proxy output plugin | On |
@@ -176,7 +176,7 @@ _Output plugins_ 提供将信息刷新到某些外部接口，服务或终端的
 | FLB\_OUT\_SLACK | Enable Slack output plugin | On |
 | [FLB\_OUT\_SPLUNK](../../pipeline/outputs/splunk.md) | Enable Splunk output plugin | On |
 | [FLB\_OUT\_STACKDRIVER](../../pipeline/outputs/stackdriver.md) | Enable Google Stackdriver output plugin | On |
-| [FLB\_OUT\_STDOUT](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/output/stdout.md) | Enable STDOUT output plugin | On |
+| [FLB\_OUT\_STDOUT](../../pipeline/outputs/standard-output.md) | Enable STDOUT output plugin | On |
 | FLB\_OUT\_TCP | Enable TCP/TLS output plugin | On |
 | [FLB\_OUT\_TD](https://github.com/fluent/fluent-bit-docs/tree/8ab2f4cda8dfdd8def7fa0cf5c7ffc23069e5a70/installation/output/td.md) | Enable [Treasure Data](http://www.treasuredata.com) output plugin | On |
 

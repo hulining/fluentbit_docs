@@ -8,7 +8,7 @@
 
 ### 依赖 <a id="requirements"></a>
 
-以下步骤假定您熟悉使用文本文件配置 Fluent Bit 的经验，并且具有[编译和构建](../../installation/sources/build-and-install.md)中描述的从头开始构建它的经验。
+以下步骤假定您熟悉使用文本文件配置 Fluent Bit 的经验，并且具有[编译和构建](build-and-install.md)中描述的从头开始构建它的经验。
 
 #### 配置文件路径 <a id="configuration-directory"></a>
 

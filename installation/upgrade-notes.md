@@ -2,9 +2,7 @@
 
 本文涵盖了有关从之前 Fluent Bit 版本升级的相关说明，旨在包含您必须知道的兼容性更改。
 
-The following article cover the relevant notes for users upgrading from previous Fluent Bit versions. We aim to cover compatibility changes that you must be aware of.
-
-有关每个发行版更改的更多详细信息，请参阅[官方发行说明](https://fluentbit.io/announcements/)
+有关每个发行版更改的更多详细信息，请参阅[官方发行说明](https://fluentbit.io/announcements/)。
 
 ## Fluent Bit v1.4
 
