@@ -14,19 +14,19 @@ description: 高性能日志处理器
 
 * 高性能
 * 数据转换
-  * 使用我们提供的解析器转换您的非结构化消息: [JSON](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/pipeline/parsers/json.md), [Regex](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/pipeline/parsers/regular-expression.md), [LTSV](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/pipeline/parsers/ltsv.md) 和 [Logfmt](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/pipeline/parsers/logfmt.md)
+  * 使用我们提供的解析器转换您的非结构化消息: [JSON](pipeline/parsers/json.md), [Regex](pipeline/parsers/regular-expression.md), [LTSV](pipeline/parsers/ltsv.md) 和 [Logfmt](pipeline/parsers/logfmt.md)
 * 可靠性和数据完整性
-  * [Backpressure](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/administration/backpressure.md) 处理
-  * 内存和文件系统中的[数据缓冲](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/administration/buffering-and-storage.md)
+  * [Backpressure](administration/backpressure.md) 处理
+  * 内存和文件系统中的[数据缓冲](administration/buffering-and-storage.md)
 * 网络
   * 安全性: 内建 TLS/SSL 支持
   * 异步 I/O
-* 可插拔架构和[可扩展性](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/development/library_api.md): 输入，过滤和输出
+* 可插拔架构和[可扩展性](development/library_api.md): 输入，过滤和输出
   * 提供 50 多个内建插件
   * 易扩展
     * 所有输入，过滤和输出插件均使用 C 语言编写
-    * 另外包含[使用 Lua 编写的过滤插件](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/pipeline/filters/lua.md)和[使用 Golang 编写的输出插件](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/development/golang-output-plugins.md)
-* [监控](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/administration/monitoring.md): 通过 HTTP 公开 JSON 和 [Prometheus](https://prometheus.io/) 格式的内部数据指标
+    * 另外包含[使用 Lua 编写的过滤插件](https://github.com/hulining/fluentbit_docs/tree/69eece284cbc10987f803da5504495df72ce0085/pipeline/filters/lua.md)和[使用 Golang 编写的输出插件](development/golang-output-plugins.md)
+* [监控](administration/monitoring.md): 通过 HTTP 公开 JSON 和 [Prometheus](https://prometheus.io/) 格式的内部数据指标
 * [流式处理](./): 使用简单的 SQL 查询执行数据选择和转换
   * 使用查询结果创建新的数据流
   * 聚合窗口
