@@ -9,7 +9,7 @@
 | Host | 目标 ES 实例 IP 地址或主机名 | 127.0.0.1 |
 | Port | 目标 ES 实例的 TCP 端口 | 9200 |
 | Path | ES 在 HTTP 查询路径 `/_bulk` 上接受新数据。但也可以在反向代理的子路径提供 ES 服务。该选项在 Bluent Bit 侧定义了这种路径。它在索引 HTTP POST URI 中添加路径前缀 | 空字符串 |
-| Buffer\_Size | 指定用于从 Elasticsearch HTTP 服务读取响应的缓冲区大小。此选项对于需要读取完整响应的调试目的很有用，请注意响应大小取决于插入的记录数而增加。要设置无限数量的内存，请将此值设置为**False**，否则该值必须符合[单位](../../administration/configuring-fluent-bit/unit-sizes.md)中定义的规范 | 4KB |
+| Buffer\_Size | 指定用于从 Elasticsearch HTTP 服务读取响应的缓冲区大小。此选项对于需要读取完整响应的调试目的很有用，请注意响应大小取决于插入的记录数而增加。要设置无限数量的内存，请将此值设置为 **False**，否则该值必须符合[单位](../../administration/configuring-fluent-bit/unit-sizes.md)中定义的规范 | 4KB |
 | Pipeline | 较新版本的 Elasticsearch 允许设置称为 pipeline 的过滤器。出于性能原因，强烈建议在 Fluent Bit 端进行解析和过滤，避免使用 pipeline |  |
 | AWS\_Auth | Enable AWS Sigv4 Authentication for Amazon ElasticSearch Service | Off |
 | AWS\_Region | Specify the AWS region for Amazon ElasticSearch Service |  |

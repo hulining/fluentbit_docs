@@ -128,7 +128,7 @@ Sumo Logic 建议的配置是使用 `iso8601` 格式时间戳的 `json_lines` �
     Json_date_format iso8601
 ```
 
-Sumo Logic 查询 [CPU](../../pipleline/inputs/cpu.md)输入插件的示例\(需要 `iso8601` 日期格式的 `json_lines` 格式记录\)如下:
+Sumo Logic 查询 [CPU](../../pipleline/inputs/cpu.md) 输入插件的示例\(需要 `iso8601` 日期格式的 `json_lines` 格式记录\)如下:
 
 ```text
 _sourcecategory="my_fluent_bit"

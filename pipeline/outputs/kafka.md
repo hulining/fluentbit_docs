@@ -1,6 +1,6 @@
 # Kafka
 
-**kafka** 输出插件可以将您的记录输出到 [Apache Kafka](https://kafka.apache.org/) 服务中。该插件使用了官方的[librdkafka C 库](https://github.com/edenhill/librdkafka)\(内置依赖库\)。
+**kafka** 输出插件可以将您的记录输出到 [Apache Kafka](https://kafka.apache.org/) 服务中。该插件使用了官方的 [librdkafka C 库](https://github.com/edenhill/librdkafka)\(内置依赖库\)。
 
 ## Configuration Parameters
 
