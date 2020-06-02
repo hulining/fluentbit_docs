@@ -16,7 +16,7 @@ description: 高性能日志处理器
 * 数据转换
   * 使用我们提供的解析器转换您的非结构化消息: [JSON](pipeline/parsers/json.md), [Regex](pipeline/parsers/regular-expression.md), [LTSV](pipeline/parsers/ltsv.md) 和 [Logfmt](pipeline/parsers/logfmt.md)
 * 可靠性和数据完整性
-  * [Backpressure](administration/backpressure.md) 处理
+  * [Backpressure](administration/backpressure.md)  积压处理
   * 内存和文件系统中的[数据缓冲](administration/buffering-and-storage.md)
 * 网络
   * 安全性: 内建 TLS/SSL 支持

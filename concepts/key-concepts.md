@@ -64,7 +64,7 @@ SECONDS.NANOSECONDS
 
 ### Seconds
 
-自 _Unix 纪元_ 以来经过的秒数
+自 Unix 纪元以来经过的秒数
 
 ### Nanoseconds
 
@@ -74,7 +74,7 @@ SECONDS.NANOSECONDS
 时间戳始终存在，可以通过输入插件设置，也可以通过数据解析过程发现。
 {% endhint %}
 
-## 匹配 <a id="match"></a>
+## \(标签\)匹配 <a id="match"></a>
 
 Fluent Bit 允许将收集和处理的事件传递到一个或多个目的地，这是通过路由阶段完成的。匹配表示一个简单的规则，用于选择标签与定义规则相匹配的事件
 

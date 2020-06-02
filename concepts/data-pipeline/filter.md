@@ -14,5 +14,5 @@ description: 修改，丰富或删除您的记录
 
 输入插件非常相似，过滤器在实例的上下文中运行，实例上下文具有自己的独立配置。配置的键通常称为**properties\(属性\)**。
 
-有关可用过滤器及其用法的更多详细信息，请参阅[过滤器](https://docs.fluentbit.io/manual/pipeline/filters)部分。
+有关可用过滤器及其用法的更多详细信息，请参阅[过滤器](../../pipeline/filters/)部分。
 
