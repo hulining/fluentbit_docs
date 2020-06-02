@@ -2,8 +2,6 @@
 
 Fluent Bit 当前仅支持将 Golang 插件集成为仅用于输出插件的共享库。Golang 插件的接口目前正在开发中，但可以使用。
 
-Fluent Bit currently supports integration of Golang plugins built as shared objects for output plugins only. The interface for the Golang plugins is currently under development but is functional.
-
 Fluent Bit当前仅支持将 Golang 插件集成为仅用于输出插件的共享库。Golang 插件的接口目前正在开发中，但可以使用。
 
 ## Getting Started
@@ -16,7 +14,7 @@ $ cmake -DFLB_DEBUG=On -DFLB_PROXY_GO=On ../
 $ make
 ```
 
-编译后，我们可以在二进制中看到新选项 `-e`，它代表 _external plugin_，例如:
+编译后，我们可以在二进制中看到新选项 `-e`，它代表扩展插件，例如:
 
 ```text
 $ bin/fluent-bit -h

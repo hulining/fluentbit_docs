@@ -1,6 +1,6 @@
 # 总览
 
-流处理是在连续数据流仍在流动时对其进行查询的功能。[Fluent Bit](https://fluentbit.io) 实现了可用于此过程的Streaming SQL Engine\(流式结构查询语言\)。
+流处理是在连续数据流仍在流动时对其进行查询的功能。[Fluent Bit](https://fluentbit.io) 实现了可用于此过程的Streaming SQL Engine\(流式结构查询语言引擎\)。
 
 为了理解流处理在 Fluent Bit 中的工作方式，我们将快速浏览 Fluent Bit 架构以及数据是如何通过管道的。
 
