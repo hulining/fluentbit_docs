@@ -145,7 +145,7 @@ Kubernetes 过滤器依赖 [tail](../inputs/tail.md) 或 [systemd](../inputs/sys
     Merge_Log_Key    log_processed
 ```
 
-在 INPUT 配置段中，[tail](../../pipeline/input/tail.md) 插件将监控路径 `/var/log/containers/` 路径以 `.log` 结尾的所有文件。对于每个文件，它将读取每一行日志记录并应用 docker 解析器。然后，日志记录将被附加标签并发送到下一步。
+在 INPUT 配置段中，[tail](../inputs/tail.md) 插件将监控路径 `/var/log/containers/` 路径以 `.log` 结尾的所有文件。对于每个文件，它将读取每一行日志记录并应用 docker 解析器。然后，日志记录将被附加标签并发送到下一步。
 
 Tail 插件支持标签扩展，这意味着如果标签带有星号\(\*\)，它将用受监控文件的绝对路径替换该值，因此，如果您的文件名路径为:
 

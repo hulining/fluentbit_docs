@@ -27,7 +27,7 @@
 | Tag | 为读取的行设置标签\(带有正则表达式字段\)。如 `kube.<namespace_name>.<pod_name>.<container_name>`.请注意支持如下"标签扩展"规则: 如果标签包含星号\(\*\)，则星号\(\*\)将被替换为文件的绝对路径\(请参阅 [Workflow of Tail + Kubernetes Filter](../filters/kubernetes.md#workflow-of-tail-kubernetes-filter) |  |
 | Tag\_Regex | 设置正则表达式以从文件中提取字段.如 `(?<pod_name>[a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*)_(?<namespace_name>[^_]+)_(?<container_name>.+)-` |  |
 
-请注意，如果未指定数据库参数 _db_，默认情况下，插件将从头开始读取每个目标文件。
+请注意，如果未指定数据库参数 _`db`_，默认情况下，插件将从头开始读取每个目标文件。
 
 ### 多行配置参数 <a id="multiline"></a>
 
@@ -98,7 +98,7 @@ id     name                              offset        inode         created
 sqlite>
 ```
 
-> 确保 Fluent Bit 没有依赖该数据库再浏览数据库文件，否则您会看到一些 _Error: database is locked_ 之类的错误消息。
+> 确保 Fluent Bit 没有依赖该数据库再浏览数据库文件，否则您会看到一些 _Error: database is locked_ 之类的错误信息。
 
 #### 格式化 SQLite
 

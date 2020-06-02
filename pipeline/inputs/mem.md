@@ -6,7 +6,7 @@
 
 要从系统获取内存和 swap 使用情况，可以从命令行或通过配置文件运行插件:
 
-### 命令行
+### 命令行 <a id="commo"></a>
 
 ```bash
 $ fluent-bit -i mem -t memory -o stdout -m '*'
