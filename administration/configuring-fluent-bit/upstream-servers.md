@@ -1,6 +1,6 @@
 # 上游服务负载均衡
 
-Fluent Bit [输出插件](pipeline/outputs)通过网络连接外部服务交付日志是很常见的，例如 [HTTP](pipeline/outputs/http.md), [Elasticsearch](pipeline/outputs/elasticsearch.md) 和 [Forward](pipeline/outputs/forward.md) 等其他插件都是这种情况。比较常见的是连接到一个节点\(主机\)，可以满足许多应用场景，但是在某些情况下，则需要在不同节点进行负载均衡。 _Upstream_ 特性提供了这种能力。
+Fluent Bit [输出插件](pipeline/outputs)通过网络连接外部服务交付日志是很常见的，例如 [HTTP](../../pipeline/outputs/http.md), [Elasticsearch](../../pipeline/outputs/elasticsearch.md) 和 [Forward](pipeline/outputs/forward.md) 等其他插件都是这种情况。比较常见的是连接到一个节点\(主机\)，可以满足许多应用场景，但是在某些情况下，则需要在不同节点进行负载均衡。 _Upstream_ 特性提供了这种能力。
 
 _`Upstream`_ 定义了作为输出插件目标一组节点，根据实现的性质，输出插件**必须**支持 _Upstream_ 功能。以下插件支持 _Upstream_:
 
@@ -27,7 +27,7 @@ _NODE_ 可能包含其他插件所需的配置项，这样我们为输出插件�
 
 除了上表中定义的属性之外，可以通过使用 TLS 加密和证书完成对一个节点的网络进行加密。
 
-可用的 TLS 选项在 [TLS/SSL](administration/security.md) 部分中进行了描述，且可以添加到任何 _Node_ 配置段中。
+可用的 TLS 选项在 [TLS/SSL](../security.md) 部分中进行了描述，且可以添加到任何 _Node_ 配置段中。
 
 ### 配置文件示例 <a id="configuration-file-example"></a>
 

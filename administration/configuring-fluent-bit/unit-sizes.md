@@ -1,6 +1,6 @@
 # 单位
 
-Fluent Bit 中的某些配置指令涉及单位大小，例如在定义缓冲区大小或特定限制时，我们可以在 [Tail Input](tail)，[Forward Input](forward) 之类的插件或在 \[Mem\_Buf\_Limit\] 之类的通用属性中找到这些单位。
+Fluent Bit 中的某些配置指令涉及单位大小，例如在定义缓冲区大小或特定限制时，我们可以在 [Tail](../../pipeline/inputs/tail.md)，[Forward](forward) 之类的输入插件插件或在 [Mem\_Buf\_Limit](../backpressure.md#mem_buf_limit) 之类的通用属性中找到这些单位。
 
 从 [Fluent Bit](http://fluentbit.io) v0.11.10 开始，所有单位大小已在内核和插件之间进行了标准化，下表描述了可以使用的选项及其含义:
 

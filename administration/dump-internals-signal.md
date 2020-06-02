@@ -64,7 +64,7 @@ total chunks     : 92
 
 | 项 | 子项 | 描述 |
 | :--- | :--- | :--- |
-| overlimit |  | 如果插件已启用 [`Mem_Buf_Limit`](backpressure.md) 配置，则此项将报告插件在状态导出时是否超过其限制。如果超过，则显示 `yes`，否则显示`no` |
+| overlimit |  | 如果插件已启用 [`Mem_Buf_Limit`](backpressure.md#mem_buf_limit) 配置，则此项将报告插件在状态导出时是否超过其限制。如果超过，则显示 `yes`，否则显示`no` |
 |  | mem\_size | 输入插件正在使用的当前内存大小. |
 |  | mem\_limit | Limit set by Mem\_Buf\_Limit设置的内存大小 |
 
