@@ -19,7 +19,7 @@ description: 生产级生态系统
 
 下表描述了两个项目在不同方面的比较:
 
-|  | Fluentd | Fluent Bit |
+| Fluentd | Fluent Bit |  |
 | :---: | :---: | :---: |
 | 适用范围 | 容器/服务器 | 嵌入式 Linux/容器/服务器 |
 | 开发语言 | Ruby & C | C |
